@@ -1,5 +1,5 @@
+//find first duplicate element
 import java.util.HashSet;
-
 import java.util.*;
 public class First_duplicate_no {
     public static void main(String[] args) {
