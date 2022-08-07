@@ -1,5 +1,5 @@
 public class transposeOfAMatrix {
-    static void printMatrix(int a[][]){
+    /*static void printMatrix(int a[][]){
         int n=a.length;
         for(int i=0;i<n;i++){
             for(int j=0;j<n;i++){
@@ -7,7 +7,7 @@ public class transposeOfAMatrix {
             }
             System.out.println();
         }
-    }
+    }*/
     static void TransposeOfAMatrix(int a[][]){
         int n=a.length;
         for(int i=0;i<n;i++){
@@ -25,9 +25,13 @@ public class transposeOfAMatrix {
             {7,8,9}
         };
         System.out.println("before transpose:");
-        printMatrix(a);
+        //printMatrix(a);
         TransposeOfAMatrix(a);
         System.out.println("after transpose:");
-        printMatrix(a);
+        for(int i=0;i<a.length;i++){
+            for(int j=0;j<a[i].length;j++){
+                System.out.print(" "+a[i][j]);
+            }System.out.println();
+        }
     }
 }
